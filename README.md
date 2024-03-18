@@ -97,8 +97,6 @@ If you want to generate the benchmarks yourself or understand how it was generat
 
 The base benchmark repo is unfortunately not completely up to date, so you'll have to apply the following patches.
 
-Copy the new `.input` files from `./automata-bench-inputs` to `./automata-bench`.
-
 Copy the patch scripts from `./automata-bench-patches` to `./automata-bench`.
 
 ```
