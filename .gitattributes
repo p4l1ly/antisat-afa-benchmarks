@@ -1,0 +1,4 @@
+afacomp_emp.tgz filter=lfs diff=lfs merge=lfs -text
+afacomp_push_pos_not.tgz filter=lfs diff=lfs merge=lfs -text
+afacomp_simpl_aig.tgz filter=lfs diff=lfs merge=lfs -text
+afacomp_simpl_tseytin.tgz filter=lfs diff=lfs merge=lfs -text
