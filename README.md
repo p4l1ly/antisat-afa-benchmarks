@@ -70,13 +70,13 @@ We have run it as
 
 ## Resulting benchmarks
 
-The preprocessed AFA from which further conversions for specific tools were made are in `./afacomp_push_pos_not.tgz`
+The preprocessed AFA from which further conversions for specific tools were made are in `./afacomp_push_pos_not.tgz` (the format is described in the README of `https://github.com/p4l1ly/automata-safa`)
 
-The benchmarks formatted for AntiSAT are in `./afacomp_simpl_tseytin.tgz`
+The benchmarks formatted for AntiSAT are in `./afacomp_simpl_tseytin.tgz` (it is a special format - CNF with AFA-specific header, not documented anywhere yet, the only reference as for now is the code of `automata-safa-one` or `antisat`)
 
 The benchmarks formatted for ABC (AIGER) are in `./afacomp_simpl_aig.tgz`
 
-The benchmarks formatted for Mata are in `./afacomp_emp.tgz`
+The benchmarks formatted for Mata are in `./afacomp_emp.tgz` (see the Mata repositories for the format description)
 
 All the compressed directories share the same structure.
 They contain subdirectories with benchmark class names, each of which contain numbered instances.
